@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,600;0,700;0,900;1,300;1,400;1,600;1,700;1,900&display=swap');
+
+*{
+    color: antiquewhite;
+    font-family: 'Montserrat', sans-serif;
+    width: 100%;
+    margin: 0;
+}
+
+body{
+    background-color: darkred;
+}
+
+/*HEADER*/
+
+#navbar{
+    background-color: aqua;
+    display: grid;
+    place-items: center;
+    position: fixed;
+    visibility: hidden;
+}
+
+    #navbar a{
+        text-decoration: none;
+        text-transform: uppercase;
+        font-weight: bold;
+        text-align: center;
+        padding: 64px;
+    }
+
+#presentacion{
+     margin: 150px 0px;
+}
+    #presentacion img{
+        border-radius: 255px;
+    }
+    #texto{
+        margin-top: 32px;
+        text-align: center;
+    }
+    #texto h1{
+        font-size: 32px;
+        padding: 16px 0px;
+    }
+    #texto a{
+        font-weight: bold;
+        background-color: blueviolet;
+        text-decoration: none;
+        text-transform: uppercase;
+        padding: 16px;
+        border-radius: 32px;
+        box-shadow: 0px 0px 16px;
+    }
+    #texto a:hover{
+        background-color: antiquewhite;
+        color: blueviolet;
+        padding: 24px;
+        border-radius: 48x;
+        box-shadow: 0px 0px 16px;
+        transition: all linear 0.2s;
+    }
+
+/*MAIN*/
+
+/*SECCION MI HISTORIA*/
+
+#miHistoria{
+    padding: 86px 0px;
+    text-align: center;
+}
+    #miHistoria h2{
+        font-size: 32px;
+        margin: 32px 0px;
+        text-align: center;
+    }
+    #miHistoria img{
+        margin: 32px 0px;
+        text-align: center;
+    }
+    #miHistoria a{
+        background-color: blueviolet;
+        text-decoration: none;
+        text-transform: uppercase;
+        padding: 16px;
+        border-radius: 32px;
+    }
+
+/*SECCION MIS PROYECTOS*/
+
+#misProyectos{
+    padding: 46px 0px;
+}
+    #misProyectos h3{
+        font-size: 32px;
+        text-align: center;
+        margin: 32px 0px;
+    }
+    .proyecto{
+        height: 280px;
+    }
+
+/*SECCION CONTACTO*/
+
+/*FOOTER*/
+
+#social{
+    text-align: center;
+}
+    #social a{
+        padding: 8px;
+    }
+    #social a img{
+        width: 36px;
+    }
